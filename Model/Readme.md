@@ -1,1 +1,4 @@
-M
+# Model Description :
+
+The study's base model for hate speech detection on Twitter combines traditional classifiers, GloVe embeddings, and transformer-based embeddings. Traditional classifiers like SVM, XGB, and MLP provide a foundation for evaluation. GloVe embeddings capture word meanings, enhancing deep models (CNNs, MLPs, Bi-LSTMs). Transformer-based embeddings, including BERT and ELECTRA, leverage contextual understanding. Text data is represented using TF-IDF for traditional classifiers, GloVe for deep models, and transformer embeddings for advanced models. By exploring various classifier-embedding combinations, the model's versatility and performance are evaluated comprehensively. This adaptive architecture underscores the importance of embeddings and classifiers in effective hate speech detection.
+
